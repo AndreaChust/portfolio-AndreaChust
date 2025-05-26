@@ -1,3 +1,8 @@
+@use "../core/variables" as vars;
+
+body {
+    background-color: vars.$color-main;
+}
 
 .containerimg {
     width: 150px;
@@ -10,4 +15,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    &__title {
+        color: vars.$color-secondary;
+    }
+}
+
+.list-header {
+    color: vars.$color-secondary;
+    display: flex;
+    gap: 15px;
 }
