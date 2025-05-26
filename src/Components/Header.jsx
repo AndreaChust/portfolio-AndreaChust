@@ -6,16 +6,16 @@ function Header() {
             <div className="containerimg">
                 <a href=""><img className="containerimg__logo" src={logoDeveloper} alt="logo developer" /></a>
             </div>
-            <div>
-            <h1 className="header__title">Andrea Chust Ramos</h1>
+            <div className="header__title">
+            <h1>Andrea Chust Ramos</h1>
             <h2>Full Stack Developer en Murcia</h2>
             </div>
             <nav>
                 <ul className="list-header">
-                <a href=""><li>Inicio</li></a>
-                <a href=""><li>Sobre mí</li></a>
-                <a href=""><li>Linkdin</li></a>
-                <a href=""><li>GitHub</li></a>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Sobre mí</a></li>
+                <li><a href="">Linkdin</a></li>
+                <li><a href="">GitHub</a></li>
                 </ul>
 
             </nav>

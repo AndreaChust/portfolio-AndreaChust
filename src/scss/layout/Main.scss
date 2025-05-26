@@ -16,6 +16,9 @@ body {
     justify-content: space-around;
     align-items: center;
     &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         color: vars.$color-secondary;
     }
 }
@@ -23,5 +26,6 @@ body {
 .list-header {
     color: vars.$color-secondary;
     display: flex;
+
     gap: 15px;
 }
