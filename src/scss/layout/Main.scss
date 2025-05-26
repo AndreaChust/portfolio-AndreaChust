@@ -1,0 +1,13 @@
+
+.containerimg {
+    width: 150px;
+    &__logo {
+        width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

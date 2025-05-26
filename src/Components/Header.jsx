@@ -1,11 +1,12 @@
+import logoDeveloper from "../Images/LogoFull.png";
 
 function Header() {
     return (
-        <header>
-            <h1>Este es mi portfolio</h1>
-            <ul>
-                <li></li>
-            </ul>
+        <header className="header">
+            <div className="containerimg">
+                <img className="containerimg__logo" src={logoDeveloper} alt="" />
+            </div>
+            <h1>Andrea Chust Ramos</h1>
         </header>
     )
 }
