@@ -12,10 +12,11 @@ function Header() {
             </div>
             <nav>
                 <ul className="list-header">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="">Linkdin</a></li>
-                <li><a href="">GitHub</a></li>
+                <li className="li-btn"><a href="">Inicio</a></li>
+                <li className="li-btn"><a href="">Sobre mí</a></li>
+                <li className="li-btn"><a href="">Mis proyectos</a></li>
+                <li className="li-btn"><a href="https://www.linkedin.com/in/andreachustramos/">Linkdin</a></li>
+                <li className="li-btn"><a href="https://github.com/AndreaChust">GitHub</a></li>
                 </ul>
 
             </nav>

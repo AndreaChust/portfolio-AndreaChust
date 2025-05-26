@@ -2,6 +2,7 @@
 
 body {
     background-color: vars.$color-main;
+    font-family: vars.$font-main;
 }
 
 .containerimg {
@@ -26,6 +27,11 @@ body {
 .list-header {
     color: vars.$color-secondary;
     display: flex;
-
     gap: 15px;
+}
+
+.li-btn {
+        &:hover {
+        color: vars.$color-tercer;
+    }
 }
