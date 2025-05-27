@@ -1,4 +1,4 @@
-import logoDeveloper from "../Images/LogoFull.png";
+import logoDeveloper from "../Images/Logopink.png";
 
 function Header() {
     return (
@@ -13,10 +13,11 @@ function Header() {
             <nav>
                 <ul className="list-header">
                 <li className="li-btn"><a href="">Inicio</a></li>
-                <li className="li-btn"><a href="">Sobre mí</a></li>
+                <li className="li-btn"><a href="">El viaje</a></li>
                 <li className="li-btn"><a href="">Mis proyectos</a></li>
                 <li className="li-btn"><a href="https://www.linkedin.com/in/andreachustramos/">Linkdin</a></li>
                 <li className="li-btn"><a href="https://github.com/AndreaChust">GitHub</a></li>
+                <li className="li-btn"><a href="">Contacto</a></li>
                 </ul>
 
             </nav>
